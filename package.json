@@ -47,7 +47,7 @@
     "build": "set NODE_ENV=production webpack",
     "dev": "concurrently --prefix '{time}-{pid}' 'npm run watch' 'npm run hugo' --kill-others --kill-others-on-fail",
     "prod": "echo 'Not yet implemented'",
-    "hugo": "hugo server -Dw"
+    "hugo": "hugo server -D"
   },
   "repository": {
     "type": "git",
